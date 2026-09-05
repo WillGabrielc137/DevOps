@@ -1,0 +1,40 @@
+name: muve
+description: "Aplicativo Muve - Conecta músicos e contratantes locais"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Pacotes adicionais
+  cupertino_icons: ^1.0.8
+  animate_do: ^2.1.0
+  http: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/muvelogo.png
+    - assets/images/images_contrante_events_screen/
+    - assets/images/images_events_screen/
+    - assets/images/images_events_screen/images_events_sertanejo/
+    # Você pode adicionar outras imagens depois
+    # - assets/images/outra_imagem.png
+
+  # Se futuramente quiser adicionar fontes personalizadas:
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/Roboto-Regular.ttf
+  #       - asset: assets/fonts/Roboto-Bold.ttf
+  #         weight: 700
